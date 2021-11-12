@@ -8,12 +8,12 @@ body {
     font-family: "monaco", cursive, sans-serif;
 }
 .logo {
-    height: 80px;
+    height: 100px;
     width: 100%;
     padding: 10px 30px 10px 30px;
     background-color: rgb(47, 168, 224);
     color: rgb(214, 21, 21);
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .logo img{
