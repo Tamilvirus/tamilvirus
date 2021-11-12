@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+body {
+    font-family: "monaco", cursive, sans-serif;
+}
+.logo {
+    height: 80px;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(47, 168, 224);
+    color: rgb(214, 21, 21);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo img{
+    width: 60px;    
+}
+.title img{
+    width: auto;
+}
+.title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.more {
+    font-size: 50px;
+}
+.download {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
