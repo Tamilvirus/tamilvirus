@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: 'poppins', sans-serif;
+    background: #bdc3c7;
+    text-align: center;
+}
+.container {
+    
+    background: #7f8c8d;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    padding: 25px 30px;
+    box-shadow: 0 10px 10px rgba( 0,0,0,0.15);
+    position: relative;
+}
+.movie-pto {
+    padding: 50px 0 20px 0;
+    
+}
+.movie-title {
+    color: black;
+    position: relative;
+    text-align: unset;
+}
+.movie-title h1 {
+    margin-bottom: 15px;
+}
+.movie-title p {
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: black;
+}
+.movie-title p span {
+    color: black;
+    font-weight: 700;
+
+
+}
+.movie-title #movie-info {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+
+}
+.download-link {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+    
+}
+.download-link input {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+    background:linear-gradient(-135deg,#c850c0,#4158d0);
+}
+.download-link input:hover{
+    background: linear-gradient( to left, #99004d 0%, #ff0080 100%);
+    color: #fff;
+}
+.download-link p {
+    margin-top: 18px;
+}
+#epi {
+	  color: black;
+  }
